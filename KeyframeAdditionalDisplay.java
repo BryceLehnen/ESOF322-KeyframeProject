@@ -1,10 +1,16 @@
 
-public class KeyframeAdditionalDisplay {
-  void update(/* some parameter */){
+public class KeyframeAdditionalDisplay implements observer, PreviewData
+{
+
+  @Override
+  public void update(/* some parameter */)
+  {
     
   }
   
-  void display(){
+  @Override
+  public void display()
+  {
     
   }
 
