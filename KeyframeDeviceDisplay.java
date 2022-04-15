@@ -1,4 +1,5 @@
 //Lukas Bernard - Framework, Implementation and override
+//Nathan Johnson - Method framework, parameter input
 
 public class KeyframeDeviceDisplay implements observer, PreviewData
 {
