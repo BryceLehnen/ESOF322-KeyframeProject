@@ -1,38 +1,48 @@
 
-public class HomeData {
-  void registerObserver(){
+public class HomeData implements subject
+{
+  void registerObserver(observer n)
+  {
     
   }
   
-  void removeObserver(){
+  void removeObserver(observer n)
+  {
     
   }
   
-  void notifyObservers(){
+  void notifyObservers(//stringhere)
+  {
     
   }
   
-  void getTime(){
+  void getTime()
+  {
     
   }
   
-  void getVideo(){
+  void getVideo()
+  {
     
   }
   
-  void getAudio(){
+  void getAudio()
+  {
     
   }
   
-  void getAdditional(){
+  void getAdditional()
+  {
     
   }
   
-  void getShareInformation(){
+  void getShareInformation()
+  {
     
   }
   
-  void getDeviceType(){
+  void getDeviceType()
+  {
     
   }
 }
