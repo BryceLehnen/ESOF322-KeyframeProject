@@ -1,10 +1,15 @@
 
-public class KeyframeTimeDisplay {
-  void update(/* some parameter*/){
+public class KeyframeTimeDisplay implements observer, PreviewData{
+  
+  @Override
+  void update(/* some parameter*/)
+  {
     
   }
   
-  void display(){
+  @Override
+  void display()
+  {
     
   }
 }
