@@ -1,4 +1,5 @@
 
-public class PreviewData {
-
+public interface PreviewData 
+{
+  public void display();
 }
