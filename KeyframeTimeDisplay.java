@@ -1,3 +1,4 @@
+//Lukas Bernard - Framework, Implementation and override
 
 public class KeyframeTimeDisplay implements observer, PreviewData{
   
