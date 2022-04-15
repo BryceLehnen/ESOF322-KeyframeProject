@@ -1,10 +1,14 @@
+//Lukas Bernard - Framework, Implementation and override
 
-public class KeyframeShareDisplay {
-  void update(/* some parameter */){
+public class KeyframeShareDisplay implements observer, PreviewData
+{
+  void update(/* some parameter */)
+  {
     
   }
   
-  void display(){
+  void display()
+  {
     
   }
 }
