@@ -2,16 +2,18 @@
 //Nathan Johnson - Method framework, parameter input
 
 public class KeyframeTimeDisplay implements observer, PreviewData{
+
+  String time;
   
   @Override
-  void update(/* some parameter*/)
+  void update(String timeVariable)
   {
-    
+    time = timeVariable;
   }
   
   @Override
   void display()
   {
-    
+    System.out.println("The event occurred at " + time);
   }
 }
