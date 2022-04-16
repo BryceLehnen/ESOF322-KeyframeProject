@@ -21,7 +21,7 @@ public class KeyframeAdditionalDisplay implements observer, PreviewData
       System.out.println("There is an additional element"); // change this to what it is
     }
     else if (!dataStored){
-      System.out.pirntln("THere is no additional occurrences to display");
+      System.out.pirntln("There is no additional occurrences to display");
     }
   }
 
