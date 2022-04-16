@@ -29,7 +29,7 @@ public class HomeData implements subject
     
   }
   
-  void notifyObservers(string M)
+  void notifyObservers(String M)
   {
 
   }
