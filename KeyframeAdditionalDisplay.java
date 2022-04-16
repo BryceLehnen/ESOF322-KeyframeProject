@@ -1,8 +1,6 @@
 //Lukas Bernard - Framework, Implementation and override
 //Nathan Johnson - Method framework, parameter input
 
-import java.lang.String;
-
 public class KeyframeAdditionalDisplay implements observer, PreviewData
 {
 
