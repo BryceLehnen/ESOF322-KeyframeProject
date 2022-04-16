@@ -4,16 +4,23 @@
 public class KeyframeAdditionalDisplay implements observer, PreviewData
 {
 
+  private boolean dataStored = false;
   @Override
-  public void update(/* some parameter */)
+  public void update(boolean test)
   {
-    
+      dataStored = test;
   }
   
   @Override
-  public void display()
+  public void display(String message)
   {
-    
+    if (dataStored)
+    {
+      System.out.println("There is an additional element: " + message);
+    }
+    else if (!dataStored){
+      System.out.pirntln("There is no additional occurrences to display");
+    }
   }
-
+  
 }

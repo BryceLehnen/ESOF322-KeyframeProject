@@ -6,7 +6,7 @@ public class KeyframeVideoDisplay implements observer, PreviewData
   @Override
   void update(/* some parameter */)
   {
-    
+    //Bryce testing his new IDE B)
   }
   
   @Override
