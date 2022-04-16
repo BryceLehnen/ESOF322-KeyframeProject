@@ -11,7 +11,7 @@ public class HomeData implements subject
     
   }
   
-  void notifyObservers(//stringhere)
+  void notifyObservers(/*stringhere*/)
   {
     
   }
