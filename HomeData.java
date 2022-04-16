@@ -1,4 +1,14 @@
-//Lukas Bernard constructor
+/**
+Class HomeData 
+Author: Lukas Bernard
+Updates
+-----------------
+Update 1: Created framework and implementation
+Update 2: Added constructor
+Update 3: Added variables
+Update 4: Filled Methods
+Update 5: Changed functionality
+*/
 import java.util.List;
 import java.util.ArrayList;
 
