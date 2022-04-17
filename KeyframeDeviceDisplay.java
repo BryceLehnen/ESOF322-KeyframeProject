@@ -5,7 +5,7 @@
 public class KeyframeDeviceDisplay implements observer, PreviewData
 {
 
-  String deviceType;    // Holds the type of device (ie. doorlock, camera, etc)
+  private String deviceType;    // Holds the type of device (ie. doorlock, camera, etc)
 
   @Override
   public <T extends Comparable<T>> void update(T information)

@@ -4,7 +4,7 @@
 
 public class KeyframeTimeDisplay implements observer, PreviewData{
 
-  String time;  // Holds time info for keyframe
+  private String time;  // Holds time info for keyframe
   
   @Override
   public <T extends Comparable<T>> void update(T information)
