@@ -49,7 +49,7 @@ public class HomeData implements subject
     displayTypes.remove(n);
   }
   
-  void notifyObservers(observer n, string information)
+  void notifyObservers(observer n, String information)
   {
     n.update(information);
   }
