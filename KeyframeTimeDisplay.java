@@ -1,18 +1,28 @@
 //Lukas Bernard - Framework, Implementation and override
 //Nathan Johnson - Method framework, parameter input
+// Bryce Lehnen - update method
 
 public class KeyframeTimeDisplay implements observer, PreviewData{
 
-  String time;
+  String time;  // Holds time info for keyframe
   
   @Override
-  void update(String timeVariable)
+  public <T extends Comparable<T>> void update(T information)
   {
-    time = timeVariable;
+    // Checking to ensure that information was actually sent
+    // Info was sent successfully
+    if (!information.equals(null)) {
+      time = (String) information;
+      display();
+    }
+    // No info was sent
+    else {
+      System.out.println("ERROR: No TIME information was sent");
+    }
   }
   
   @Override
-  void display()
+  public void display()
   {
     System.out.println("The event occurred at " + time);
   }
