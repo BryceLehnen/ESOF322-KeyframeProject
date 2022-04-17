@@ -4,13 +4,13 @@
 public class KeyframeVideoDisplay implements observer, PreviewData
 {
   @Override
-  void update(/* some parameter */)
+  public <T> void update(T state)
   {
     //Bryce testing his new IDE B)
   }
   
   @Override
-  void display()
+  public void display()
   {
     
   }
