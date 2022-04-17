@@ -2,14 +2,12 @@
 //Nathan Johnson - Method framework, parameter input
 // Bryce Lehnen - update method
 
-public class KeyframeDeviceDisplay implements observer, PreviewData
-{
+public class KeyframeDeviceDisplay implements observer, PreviewData {
 
   private String deviceType;    // Holds the type of device (ie. doorlock, camera, etc)
 
   @Override
-  public <T extends Comparable<T>> void update(T information)
-  {
+  public <T extends Comparable<T>> void update(T information) {
     // Checking to ensure important* info was sent
     // Info was sent
     if (!information.equals(null)) {
@@ -23,8 +21,7 @@ public class KeyframeDeviceDisplay implements observer, PreviewData
   }
   
   @Override
-  public void display()
-  {
+  public void display() {
     
   }
   

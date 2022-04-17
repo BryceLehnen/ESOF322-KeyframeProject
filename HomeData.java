@@ -12,9 +12,9 @@ Update 5: Changed functionality
 import java.util.List;
 import java.util.ArrayList;
 
-public class HomeData implements subject
-{
+public class HomeData implements subject {
 
+  // Declaration
   private List<observer> displayTypes = new ArrayList<>();
   private KeyframeVideoDisplay video;
   private KeyframeTimeDisplay time;
@@ -23,8 +23,8 @@ public class HomeData implements subject
   private KeyframeShareDisplay share;
   private KeyframeDeviceDisplay deviceType;
 
-  HomeData()
-  { 
+  // Constructor
+  HomeData() { 
     video = new KeyframeVideoDisplay();
     time = new KeyframeTimeDisplay();
     audio = new KeyframeAudioDisplay();
@@ -39,57 +39,23 @@ public class HomeData implements subject
     registerObserver(deviceType);
   }
 
-  void registerObserver(observer n)
-  {
-    displayTypes.add(n);
-  }
+  // Adding and removing observers
+  public void registerObserver(observer n) { displayTypes.add(n); }
+  public void removeObserver(observer n) { displayTypes.remove(n); }
   
-  void removeObserver(observer n)
-  {
-    displayTypes.remove(n);
-  }
+  // Seperate notify's for each type of data
+  public void notifyObservers(observer n, String information) { n.update(information); }
+  public void notifyObservers(observer n, boolean state) { n.update(state); }
   
-  void notifyObservers(observer n, String information)
-  {
-    n.update(information);
-  }
-
-  void notifyObservers(observer n, boolean state)
-  {
-    n.update(state);
-  }
+  // Getters for all types of incoming information
+  public void getTime(String timeState) { notifyObservers(time, timeState); }
+  public void getVideo(boolean videoState) { notifyObservers(video, videoState); }
+  public void getAudio(boolean audioState) { notifyObservers(audio, audioState); }
+  public void getAdditional(String additionalInformation) { notifyObservers(additional, additionalInformation); }
+  public void getShareInformation(boolean shareInformation) { notifyObservers(share, shareInformation); }
+  public void getDeviceType(String device) { notifyObservers(deviceType, device); }
   
-  void getTime(String timeState)
-  {
-    notifyObservers(time, timeState);
-  }
-  
-  void getVideo(boolean videoState)
-  {
-    notifyObservers(video, videoState);
-  }
-  
-  void getAudio(boolean audioState)
-  {
-    notifyObservers(audio, audioState);
-  }
-  
-  void getAdditional(String additionalInformation)
-  {
-    notifyObservers(additional, additionalInformation);
-  }
-  
-  void getShareInformation(boolean shareInformation)
-  {
-    notifyObservers(share, shareInformation);
-  }
-  
-  void getDeviceType(String device)
-  {
-    notifyObservers(deviceType, device);
-  }
-  
-  void removeObserverSet()
+  public void removeObserverSet()
   {
     for(int i = 0; i < displayTypes.size(); i++)
     {

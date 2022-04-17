@@ -1,5 +1,4 @@
 
-public interface PreviewData 
-{
+public interface PreviewData {
   public void display();
 }

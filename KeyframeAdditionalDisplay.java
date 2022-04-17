@@ -2,14 +2,12 @@
 //Nathan Johnson - Method framework, parameter input
 // Bryce Lehnen - update method
 
-public class KeyframeAdditionalDisplay implements observer, PreviewData
-{
+public class KeyframeAdditionalDisplay implements observer, PreviewData {
 
-  private String datastored;
+  private String datastored;  // Contains important info about incident
   
   @Override
-  public <T extends Comparable<T>> void update(T information)
-  {
+  public <T extends Comparable<T>> void update(T information) {
       // Checking if important* info was sent
       // was sent
       if (!information.equals("nothing found")) {
@@ -23,8 +21,7 @@ public class KeyframeAdditionalDisplay implements observer, PreviewData
   }
   
   @Override
-  public void display(/*String message*/)
-  {
+  public void display(/*String message*/) {
     // Update was changed after this was made. Most likely needs to be changed
 
     /*

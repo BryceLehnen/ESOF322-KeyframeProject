@@ -1,11 +1,11 @@
 //Lukas Bernard - Framework, Implementation and override
 //Nathan Johnson - Method framework, parameter input
+// Bryce Lehnen - update method
 
-public class KeyframeAudioDisplay implements PreviewData, observer
-{
+public class KeyframeAudioDisplay implements PreviewData, observer {
+    
     @Override
-    public <T extends Comparable<T>> void update(T state)
-    {
+    public <T extends Comparable<T>> void update(T state) {
         // Checking state (boolean) if it is true or false
         // True, then update display
         if (state.equals(true)) {
@@ -18,8 +18,7 @@ public class KeyframeAudioDisplay implements PreviewData, observer
     }
     
     @Override
-    public void display()
-    {
+    public void display() {
         
     }
 }

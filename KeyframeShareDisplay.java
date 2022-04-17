@@ -2,12 +2,10 @@
 //Nathan Johnson - Method framework, parameter input
 // Bryce Lehnen - update method
 
-public class KeyframeShareDisplay implements observer, PreviewData
-{
+public class KeyframeShareDisplay implements observer, PreviewData {
 
   @Override
-  public <T extends Comparable<T>> void update(T state)
-  {
+  public <T extends Comparable<T>> void update(T state) {
     // Checking state (boolean) if it is true or false
     // True, then update display
     if (state.equals(true)) {
@@ -20,8 +18,7 @@ public class KeyframeShareDisplay implements observer, PreviewData
   }
   
   @Override
-  public void display()
-  {
+  public void display() {
     
   }
 }

@@ -2,13 +2,12 @@
 //Nathan Johnson - Method framework, parameter input
 // Bryce Lehnen - update method
 
-public class KeyframeTimeDisplay implements observer, PreviewData{
+public class KeyframeTimeDisplay implements observer, PreviewData {
 
   private String time;  // Holds time info for keyframe
   
   @Override
-  public <T extends Comparable<T>> void update(T information)
-  {
+  public <T extends Comparable<T>> void update(T information) {
     // Checking to ensure that information was actually sent
     // Info was sent successfully
     if (!information.equals(null)) {
@@ -22,8 +21,7 @@ public class KeyframeTimeDisplay implements observer, PreviewData{
   }
   
   @Override
-  public void display()
-  {
+  public void display() {
     System.out.println("The event occurred at " + time);
   }
 }
