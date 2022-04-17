@@ -5,7 +5,7 @@
 public class KeyframeAdditionalDisplay implements observer, PreviewData
 {
 
-  String datastored;
+  private String datastored;
   
   @Override
   public <T extends Comparable<T>> void update(T information)
@@ -13,7 +13,8 @@ public class KeyframeAdditionalDisplay implements observer, PreviewData
       // Checking if important* info was sent
       // was sent
       if (!information.equals("nothing found")) {
-
+        datastored = (String) information;
+        display();
       }
       // No important info (REMOVE AFTER TESTING)
       else {
