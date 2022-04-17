@@ -7,8 +7,9 @@
  *           String and boolean types
  * Update 2: Reduced methods to work with generics
  *           instead
+ * Update 3: Ensured that the generic was comparable
  */
 
 public interface observer {
-  public <T> void update(T info);
+  public <T extends Comparable<T>> void update(T info);
 }
