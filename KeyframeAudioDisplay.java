@@ -1,8 +1,9 @@
 //Lukas Bernard - Framework, Implementation and override
-//Nathan Johnson - Method framework, parameter input
+//Nathan Johnson - Method framework, parameter input, display method
 // Bryce Lehnen - update method
 
 public class KeyframeAudioDisplay implements PreviewData, observer {
+    private String audioFile;
     
     @Override
     public <T extends Comparable<T>> void update(T state) {
@@ -19,6 +20,7 @@ public class KeyframeAudioDisplay implements PreviewData, observer {
     
     @Override
     public void display() {
-        
+        // Display method only calls if there is an audio file to play
+        System.out.println("Play the audio file: " + audioFile);
     }
 }
