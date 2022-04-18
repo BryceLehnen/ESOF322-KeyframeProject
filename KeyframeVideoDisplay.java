@@ -4,6 +4,8 @@
 
 public class KeyframeVideoDisplay implements observer, PreviewData {
   
+  private String videoLink = "fakeVideoLink.com";
+
   @Override
   public <T extends Comparable<T>> void update(T state) {
     // Checking state (boolean) if it is true or false
@@ -22,6 +24,6 @@ public class KeyframeVideoDisplay implements observer, PreviewData {
     // As we don't have an actual video to display,
     // this class represents where we would display
     // the video when called.
-    System.out.println("Play video here");
+    System.out.println("Video disturbance detected - " + videoLink);
   }
 }
