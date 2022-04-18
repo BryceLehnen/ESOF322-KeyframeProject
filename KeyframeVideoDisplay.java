@@ -19,6 +19,8 @@ public class KeyframeVideoDisplay implements observer, PreviewData {
   
   @Override
   public void display() {
-    
+    // As we don't have an actual video to display,
+    // this class represents where we would display
+    // the video when called.
   }
 }
