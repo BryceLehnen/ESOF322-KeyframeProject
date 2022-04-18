@@ -1,5 +1,5 @@
 //Lukas Bernard - Framework, Implementation and override
-//Nathan Johnson - Method framework, parameter input
+//Nathan Johnson - Method framework, parameter input, display method
 // Bryce Lehnen - update method
 
 public class KeyframeVideoDisplay implements observer, PreviewData {
