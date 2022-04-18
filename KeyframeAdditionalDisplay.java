@@ -1,5 +1,5 @@
 //Lukas Bernard - Framework, Implementation and override
-//Nathan Johnson - Method framework, parameter input
+//Nathan Johnson - Method framework, parameter input, display method
 // Bryce Lehnen - update method
 
 public class KeyframeAdditionalDisplay implements observer, PreviewData {
@@ -23,16 +23,16 @@ public class KeyframeAdditionalDisplay implements observer, PreviewData {
   @Override
   public void display(/*String message*/) {
     // Update was changed after this was made. Most likely needs to be changed
-
-    /*
-    if (dataStored)
+    /*if (dataStored)
     {
       System.out.println("There is an additional element: " + message);
     }
     else if (!dataStored){
       System.out.pirntln("There is no additional occurrences to display");
-    }
-    */
+    }*/
+
+    // Since display method is only getting called if something actually happens, this should be sufficient
+    System.out.println(dataStored); // prints the additional information
   }
   
 }
