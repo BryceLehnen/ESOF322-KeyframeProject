@@ -19,6 +19,6 @@ public class KeyframeShareDisplay implements observer, PreviewData {
   
   @Override
   public void display() {
-    
+    System.out.println("Information shared");
   }
 }
