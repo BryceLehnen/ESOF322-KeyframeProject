@@ -1,5 +1,5 @@
 //Lukas Bernard - Framework, Implementation and override
-//Nathan Johnson - Method framework, parameter input
+//Nathan Johnson - Method framework, parameter input, display method
 // Bryce Lehnen - update method
 
 public class KeyframeDeviceDisplay implements observer, PreviewData {
@@ -22,7 +22,7 @@ public class KeyframeDeviceDisplay implements observer, PreviewData {
   
   @Override
   public void display() {
-    
+    System.out.println("Device Information: " + deviceType);
   }
   
 }
