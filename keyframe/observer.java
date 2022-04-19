@@ -11,6 +11,10 @@ package keyframe;
  * Update 3: Ensured that the generic was comparable
  */
 
+// Interface for Keyframe* classes for updating
+// info and determining if something needs to 
+// be displayed to the console
+
 public interface observer {
   public <T extends Comparable<T>> void update(T info);
 }
