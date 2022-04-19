@@ -1,0 +1,33 @@
+timeStamp, video, audio, additional, deviceType, userShare
+01:00, false, false, nothing found, NULL, false
+01:20, true, true, doorbell rang, doorlock, false
+02:00, false, false, nothing found, NULL, false
+03:00, false, false, nothing found, NULL, false
+04:00, false, false, nothing found, NULL, false
+05:00, false, false, nothing found, NULL, false
+06:00, false, false, nothing found, NULL, false
+06:41, false, true, heard disturbance, doorlock, true
+06:43, true, true, individual at door, camera, false
+07:00, false, false, nothing found, NULL, false
+08:00, false, false, nothing found, NULL, false
+09:00, false, false, nothing found, NULL, false
+09:06, true, true, ice cream truck, camera, true
+10:00, false, false, nothing found, NULL, false
+11:00, false, false, nothing found, NULL, false
+12:00, false, false, nothing found, NULL, false
+13:00, false, false, nothing found, NULL, false
+14:00, false, false, nothing found, NULL, false
+14:17, true, true, individual at door, camera, true
+15:00, false, false, nothing found, NULL, false
+16:00, false, false, nothing found, NULL, false
+17:00, false, false, nothing found, NULL, false
+18:00, false, false, nothing found, NULL, false
+18:34, true, false, squirrel, camera, false
+19:00, false, false, nothing found, NULL, false
+20:00, false, false, nothing found, NULL, false
+21:00, false, false, nothing found, NULL, false
+22:00, false, false, nothing found, NULL, false
+22:57, false, true, heard disturbance, doorlock, true
+23:00, false, false, nothing found, NULL, false
+23:33, false, true, gunshots heard, outside microphone, true
+24:00, false, false, nothing found, NULL, false
