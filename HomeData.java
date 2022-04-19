@@ -1,3 +1,5 @@
+package keyframe;
+
 /**
 Class HomeData 
 Author: Lukas Bernard
@@ -9,6 +11,8 @@ Update 3: Added variables
 Update 4: Filled Methods
 Update 5: Changed functionality
 */
+// Nathan Johnson - added override to notifyObserver to ensure proper program function
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -59,7 +63,12 @@ public class HomeData implements subject {
   {
     for(int i = 0; i < displayTypes.size(); i++)
     {
-      removeObserver(displayTypes[i]);
+      removeObserver(displayTypes.get(i));
     }
   }
+
+    @Override
+    public void notifyObserver(observer n) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
