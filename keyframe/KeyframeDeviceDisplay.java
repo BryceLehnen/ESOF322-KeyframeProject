@@ -16,10 +16,11 @@ public class KeyframeDeviceDisplay implements observer, PreviewData {
       deviceType = (String) information;
       display();
     }
+    /*
     // No important info (REMOVE AFTER TESTING)
     else {
       System.out.println("NO DEVICE INFO");
-    }
+    }*/
   }
   
   @Override

@@ -13,10 +13,11 @@ public class KeyframeShareDisplay implements observer, PreviewData {
     if (state.equals(true)) {
       display();
     }
+    /*
     // False, then skip (REMOVE AFTER TESTING)
     else if (state.equals(false)) {
       System.out.println("SHARING IS REGISTERED AS FALSE");
-    }
+    }*/
   }
   
   @Override

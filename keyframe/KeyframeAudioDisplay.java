@@ -5,7 +5,8 @@ package keyframe;
 // Bryce Lehnen - update method
 
 public class KeyframeAudioDisplay implements PreviewData, observer {
-    private String audioFile;
+    
+    private String audioFile = "fakeAudioLink.gov";     // Placeholder of real* audiofile
     
     @Override
     public <T extends Comparable<T>> void update(T state) {
@@ -14,10 +15,11 @@ public class KeyframeAudioDisplay implements PreviewData, observer {
         if (state.equals(true)) {
             display();
         }
+        /*
         // False, then skip (REMOVE AFTER TESTING)
         else if (state.equals(false)) {
             System.out.println("AUDIO IS REGISTERED AS FALSE");
-        }
+        }*/
     }
     
     @Override

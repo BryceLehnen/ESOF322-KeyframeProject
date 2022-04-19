@@ -17,6 +17,7 @@ public class KeyframeTimeDisplay implements observer, PreviewData {
       display();
     }
     // No info was sent
+    // If no time information is sent then something is wrong with another system
     else {
       System.out.println("ERROR: No TIME information was sent");
     }
@@ -24,6 +25,6 @@ public class KeyframeTimeDisplay implements observer, PreviewData {
   
   @Override
   public void display() {
-    System.out.println("The event occurred at " + time);
+    System.out.println("An event occurred at " + time);
   }
 }

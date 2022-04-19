@@ -6,7 +6,7 @@ package keyframe;
 
 public class KeyframeVideoDisplay implements observer, PreviewData {
   
-  private String videoLink = "fakeVideoLink.com";
+  private String videoLink = "fakeVideoLink.com";   // Placeholder of real* video file
 
   @Override
   public <T extends Comparable<T>> void update(T state) {
@@ -15,10 +15,11 @@ public class KeyframeVideoDisplay implements observer, PreviewData {
     if (state.equals(true)) {
         display();
     }
+    /*
     // False, then skip (REMOVE AFTER TESTING)
     else if (state.equals(false)) {
         System.out.println("VIDEO IS REGISTERED AS FALSE");
-    }
+    }*/
   }
   
   @Override
@@ -26,6 +27,6 @@ public class KeyframeVideoDisplay implements observer, PreviewData {
     // As we don't have an actual video to display,
     // this class represents where we would display
     // the video when called.
-    System.out.println("Video disturbance detected - " + videoLink);
+    System.out.println("Play the video file: " + videoLink);
   }
 }
