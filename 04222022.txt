@@ -10,6 +10,7 @@ timeStamp, video, audio, additional, deviceType, userShare
 09:00, false, false, nothing found, NULL, false
 10:00, false, false, nothing found, NULL, false
 11:00, false, false, nothing found, NULL, false
+11:03, true, true, mailman detected, doorcam, false
 12:00, false, false, nothing found, NULL, false
 13:00, false, false, nothing found, NULL, false
 14:00, false, false, nothing found, NULL, false
@@ -21,5 +22,7 @@ timeStamp, video, audio, additional, deviceType, userShare
 20:00, false, false, nothing found, NULL, false
 21:00, false, false, nothing found, NULL, false
 22:00, false, false, nothing found, NULL, false
+22:57, false, true, heard disturbance, camera, true
 23:00, false, false, nothing found, NULL, false
+23:33, false, true, gunshots heard, outside microphone, true
 24:00, false, false, nothing found, NULL, false

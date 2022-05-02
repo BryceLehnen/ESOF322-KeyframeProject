@@ -5,10 +5,12 @@ timeStamp, video, audio, additional, deviceType, userShare
 04:00, false, false, nothing found, NULL, false
 05:00, false, false, nothing found, NULL, false
 06:00, false, false, nothing found, NULL, false
+06:43, true, true, individual at door, camera, false
 07:00, false, false, nothing found, NULL, false
 08:00, false, false, nothing found, NULL, false
 09:00, false, false, nothing found, NULL, false
 10:00, false, false, nothing found, NULL, false
+10:57, true, true, mailman detected, doorcam, false
 11:00, false, false, nothing found, NULL, false
 12:00, false, false, nothing found, NULL, false
 13:00, false, false, nothing found, NULL, false
