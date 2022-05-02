@@ -1,33 +1,3 @@
-<<<<<<< HEAD:KeyframeAudioDisplay.java
-
-
-//Lukas Bernard - Framework, Implementation and override
-//Nathan Johnson - Method framework, parameter input, display method
-// Bryce Lehnen - update method
-
-public class KeyframeAudioDisplay implements PreviewData, observer {
-    private String audioFile;
-    
-    @Override
-    public <T extends Comparable<T>> void update(T state) {
-        // Checking state (boolean) if it is true or false
-        // True, then update display
-        if (state.equals(true)) {
-            display();
-        }
-        // False, then skip (REMOVE AFTER TESTING)
-        else if (state.equals(false)) {
-            System.out.println("AUDIO IS REGISTERED AS FALSE");
-        }
-    }
-    
-    @Override
-    public void display() {
-        // Display method only calls if there is an audio file to play
-        System.out.println("Play the audio file: " + audioFile);
-    }
-}
-=======
 package keyframe;
 
 //Lukas Bernard - Framework, Implementation and override
@@ -58,4 +28,3 @@ public class KeyframeAudioDisplay implements PreviewData, observer {
         System.out.println("Play the audio file: " + audioFile);
     }
 }
->>>>>>> 2d85883196ee84c642492144558d03ca27b60181:keyframe/KeyframeAudioDisplay.java
