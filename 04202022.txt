@@ -1,0 +1,25 @@
+timeStamp, video, audio, additional, deviceType, userShare
+01:00, false, false, nothing found, NULL, false
+02:00, false, false, nothing found, NULL, false
+03:00, false, false, nothing found, NULL, false
+04:00, false, false, nothing found, NULL, false
+05:00, false, false, nothing found, NULL, false
+06:00, false, false, nothing found, NULL, false
+07:00, false, false, nothing found, NULL, false
+08:00, false, false, nothing found, NULL, false
+09:00, false, false, nothing found, NULL, false
+10:00, false, false, nothing found, NULL, false
+11:00, false, false, nothing found, NULL, false
+12:00, false, false, nothing found, NULL, false
+13:00, false, false, nothing found, NULL, false
+14:00, false, false, nothing found, NULL, false
+15:00, false, false, nothing found, NULL, false
+16:00, false, false, nothing found, NULL, false
+17:00, false, false, nothing found, NULL, false
+18:00, false, false, nothing found, NULL, false
+19:00, false, false, nothing found, NULL, false
+20:00, false, false, nothing found, NULL, false
+21:00, false, false, nothing found, NULL, false
+22:00, false, false, nothing found, NULL, false
+23:00, false, false, nothing found, NULL, false
+24:00, false, false, nothing found, NULL, false
